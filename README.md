@@ -34,3 +34,7 @@ youtube_autoplayer.py -f
 ```
 youtube_autoplayer.py
 ```
+=======
+# Installation
+1. Install Python 3.6
+2. Install VLC player

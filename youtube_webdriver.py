@@ -14,7 +14,7 @@ def youtube_navigate(start_url, total=10, delay=5):
     "Navigate through youtube with 'Up next'"
 
     # xPath = "//div[@class='autoplay-bar']/div[@class='watch-sidebar-body']"
-    xPath = "//a[@class='thumb-link spf-link yt-uix-sessionlink spf-link']"
+    xPath = "//a[@class='yt-simple-endpoint style-scope ytd-compact-video-renderer']"
     # xPath = "//ul[@class='video-list']"
 
     chrome_options = webdriver.ChromeOptions()

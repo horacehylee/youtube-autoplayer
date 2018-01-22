@@ -3,7 +3,7 @@ import vlc
 
 def playAll(file_paths):
     "Play all file_paths"
-    vlc_instance = vlc.Instance()
+    vlc_instance = vlc.Instance("--repeat")
 
     media_list = vlc_instance.media_list_new()
     for file_path in file_paths:

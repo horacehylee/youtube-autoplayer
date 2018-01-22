@@ -36,7 +36,7 @@ def play():
 
 def main():
     "Main"
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Youtube auto downloader and player')
     parser.add_argument(
         '-u', "--update",
         help='retrive a list of updated youtube urls',
@@ -49,8 +49,10 @@ def main():
     args = parser.parse_args()
     if args.update:
         update_urls()
+        return
     if args.fetch:
         fetch()
+        return
     play()
 
 
